@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public abstract class DAOSQL<T> {
 
     private String host = "localhost:3306";
-    private String bd = "compb";
+    private String bd = "compbd";
     private String login = "root";
     private String password = "holaamixes";
     private boolean cargadoDriver;
