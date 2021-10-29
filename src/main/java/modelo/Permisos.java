@@ -5,10 +5,9 @@
  */
 package modelo;
 
-public class Permisos {
-    public Permisos () {
+import DAO.DAOUsuario;
 
-    }
+public class Permisos {
 
     public void iniciarSesion (String usuario, String contraseña) {
         DAOUsuario daoUsuarios = new DAOUsuarios();
